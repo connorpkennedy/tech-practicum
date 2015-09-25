@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
 			th {
-				text-align:left
+				text-align:left;
 			}
 			table, th, td {
 				border: 1px solid black;
@@ -18,11 +18,21 @@
 				padding: 15px;
 			}
 			td {
-				font-size: 40px
+				font-size: 40px;
+			}
+			p {
+				font-size:24px;
+			}
+			h1 {
+				color:red;
+			}
+			table#t01 {
+				width: 50%; 
+				background-color:white;
 			}
 		</style>
     </head>
-    <body>
+    <body style="background-color:blue">
 		<!--put bold and italicized heading here-->
 		<h1><strong><em>My first project</em></strong></h1>
 		<!--paragraph of text-->
@@ -38,14 +48,14 @@
 			</ol>
 		<!--Unordered List-->
 		<h3>Some of my favorite anime characters</h3>
-			<ul>
+			<ul style="list-style-type:none">
 				<li>Natsu Dragneel from <em>Fairy Tail</em></li>
 				<li>Eren Yeager from <em>Attack on Titan</em></li>
 				<li>Sora from <em>No Game No Life</em></li>
 			</ul>
 		<!--Table-->
 		<h2>Military Units in Attack on Titan</h2>
-		<table style="width:50%">
+		<table id="t01">
 			<tr>
 				<th>Symbol</th>
 				<th>Name of military unit</th>
