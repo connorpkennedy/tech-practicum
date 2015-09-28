@@ -1,0 +1,20 @@
+<style>
+	h1 {
+		font-size:60px;
+		font-style:strong;
+		font-family:Thalia,Arial;
+		color:red;
+	}
+	p {
+		text-indent:50px;
+		font-family:Arial;
+		font-size:15px;
+		color:black;
+	}
+	body {
+		background-color: lightblue;
+	}
+	img {
+		border:5px solid #000000;
+	}
+</style>
