@@ -1,10 +1,15 @@
 <style>
+	container {
+		position:relative;
+		margin:50px;
+		max-width:980px;
 	}
 	h1 {
 		font-size:60px;
 		font-style:strong;
 		font-family:Thalia,Arial;
 		color:red;
+		margin-left:50px;
 	}
 	p {
 		text-indent:50px;
@@ -18,7 +23,40 @@
 	img {
 		border:5px solid #000000;
 	}
+	#header {
+		background-color:black;
+		color:white;
+		text-align:left;
+		font-family:Thalia,Arial;
+		padding:5px;
+	}
+	#nav {
+		float:left;
+		background-color:white;
+		color:black;
+		text-align:left;
+		padding:5px;
+		height:336px;
+		width:700px;
+	}
+	#section {
+		position:relative;
+		left:720px;
+		bottom:346px;
+		height:336px;
+		width:560px;
+		padding:10px;
+	}
+	#socialmedia {
+		position:relative;
+		margin-top:50px;
+		margin-bottom:50px;
+		padding-bottom:50px;
+		padding-top:50px;
+		background-color:red;
+	}
 	img.icon {
 		border:none;
+		margin-left:50px;
 	}
 </style>
