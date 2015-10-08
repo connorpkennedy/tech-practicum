@@ -16,6 +16,7 @@
 		font-family:Arial;
 		font-size:15px;
 		color:black;
+		padding: 10px;
 	}
 	body {
 		background-color: lightblue;
@@ -37,11 +38,11 @@
 		text-align:left;
 		padding:5px;
 		height:336px;
-		width:700px;
+		width:400px;
 	}
 	#section {
 		position:relative;
-		left:720px;
+		left:400px;
 		bottom:346px;
 		height:336px;
 		width:560px;
@@ -49,14 +50,14 @@
 	}
 	#socialmedia {
 		position:relative;
-		margin-top:50px;
+		margin-top:-10px;
 		margin-bottom:50px;
 		padding-bottom:50px;
 		padding-top:50px;
 		background-color:red;
+		text-align: center;
 	}
 	img.icon {
 		border:none;
-		margin-left:50px;
 	}
 </style>
