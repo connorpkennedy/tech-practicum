@@ -61,3 +61,9 @@ ul.nav-list a:hover {
 ul.nav li:hover ul.nav-list {
 	left: 40px;
 	}
+.top {
+	background:url(images/groups/thumbnail.jpg) center-bottom;
+}
+.imgbg{
+	background:url(../images/groups/sg-about-bg.jpg) center-bottom;
+}
