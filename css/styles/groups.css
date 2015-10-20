@@ -1,6 +1,10 @@
+body {
+	background:url(../../images/groups/large1.jpg) repeat top left;
+}
 .container {
 	max-width: 980px;
-	margin: 0 auto;
+	margin: 0px auto;
+	padding: 25px;
 }
 a.logo {
 	display:inline-block;
@@ -8,7 +12,7 @@ a.logo {
 }
 ul.nav {
 	list-style-type: none;
-	float: left;
+	float: right;
 	position: relative;
 }
 ul.nav li {
@@ -62,8 +66,47 @@ ul.nav li:hover ul.nav-list {
 	left: 40px;
 	}
 .top {
-	background:url(images/groups/thumbnail.jpg) center-bottom;
+	display:block;
+	background:url(../../images/groups/small-groups-bg.jpg) no-repeat center center;
+	margin-top: 25px;
 }
 .imgbg{
-	background:url(../images/groups/sg-about-bg.jpg) center-bottom;
+	background:url(../../images/groups/sg-about-bg.jpg) no-repeat center bottom;
+}
+.image {
+	display:none;
+}
+h3 {
+	color:#4786a5;
+	text-align:left;
+}
+p {
+	color:#4d5961
+}
+a {
+	
+}
+h1 {
+	color:#fff;
+	text-align:left;
+}
+.body {
+	padding-top:100px;
+	padding-bottom:200px;
+}
+.banner {
+	padding:100px 0 15px 0;
+}
+.videosection {
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.text {
+	display:inline-block;
+}
+.video {
+	display:inline-block;
+}
+.footer {
+	margin-bottom:50px;
 }
