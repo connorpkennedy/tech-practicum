@@ -1,0 +1,81 @@
+/*//@media only screen and (max-width:1500px) {
+	.banner1 {
+		width:auto;
+	}
+}*/
+.container {
+	max-width:980px;
+	margin: 0 auto;
+}
+.community {
+	margin:100px 0px 10px 45px;
+}
+.watchbtn {
+	margin:0 auto;
+	background-color:#084a65;
+	background-image:url(../../images/new-small-groups/ico-play-outline.png);
+	background-repeat: no-repeat;
+	width:75px;
+}
+.title {
+	font-size:30px;
+}
+.banner1 {
+	background: url(../../images/new-small-groups/bg-community.jpg);
+	height:480px;
+	width:980px;
+}
+.banner-solid {
+	background-color:#084a65;
+	padding:50px;
+}
+p {
+	text-align:center;
+}
+.date1 {
+	display:inline-block;
+	width:300px;
+}
+.date2 {
+	display:inline-block;
+	width:300px;
+	margin:0 36px;
+}
+.date3 {
+	display:inline-block;
+	width:300px;
+}
+.image1 {
+	display:inline;
+}
+.image2 {
+	display:inline;
+	margin:0 36px;
+}
+.image3 {
+	display:inline;
+}
+.resource1 {
+	display:inline-block;
+	width:290px;
+	background-color:white;
+}
+.resource1 p {
+	text-align:left;
+}
+.resource2 {
+	display:inline-block;
+	background-color:white;
+	width:290px;
+}
+.resource2 p {
+	text-align:left;
+}
+.resource3 {
+	display:inline-block;
+	background-color:white;
+	width:290px;
+}
+.resource3 p {
+	text-align:left;
+}
