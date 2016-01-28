@@ -29,8 +29,14 @@
 	background-color:#084a65;
 	padding:50px;
 }
+a {
+	color:white;
+}
 p {
 	text-align:center;
+}
+span {
+	text-align:left;
 }
 .date1 {
 	display:inline-block;

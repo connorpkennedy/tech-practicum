@@ -17,35 +17,63 @@
             <p>Watch</p>
           </div>
         </div>
-        <!--DON"T WORRY ABOUT THIS FOR LAST WEEK'S ASSIGNMENT-->
-        <!--JQUERY-->
-        <!--<script>
+        <script>
           $(document).ready(function(){
             //var greeting = "hello practicum!"; //String
             //var number_of_students = 2; //Integer
             //var do_not_disturb_mode_enabled = true; //Boolean
-            var directory_open = 0;
+            var directory_open = 1;
             var semester_state = "active";
-            //LOOK UP COMPARISON OPERATORS!!!
-            if (directory_open) {
-              $(".directory-status h2 span").html("Open!");
+            //Date variables
+            var d = new Date();
+
+            var month = d.getMonth()+1;
+            var day = d.getDate();
+
+            var output = d.getFullYear() + '/' +
+            (month<10 ? '0' : '') + month + '/' +
+            (day<10 ? '0' : '') + day;
+
+            var my_date = new Date ("January 31, 2016")
+
+            if (d <= my_date) {
+              var directory_open = 0;
             } else {
-              $(".directory-status h2 span").html("Closed.");
+              var directory_open = 1;
             }
 
-            //console.log(greeting);
+            if (directory_open) {
+              $(".directory-status h2 span").html("Open!")
+              $(".group-link").html("Go to Small Group Directory")
+              $(".group-link").attr("href","https://groups.highlandsapp.com/")
+            } else {
+              $(".directory-status h2 span").html("Closed.")
+              $(".group-link").html("Register your Group")
+              $(".group-link").attr("href","https://groups.highlandsapp.com/sessions/new")
+            }
+
+            if (semester_state == "active") {
+              $(".semester-title").html("Winter/Spring 2016");
+              $(".semester-dates").html("January 31-April 30");
+            } else {
+              $(".semester-dates").html("Dates coming Soon!");
+            }
+
+
+
           });
-        </script>-->
+        </script>
         <div class="banner-solid primary">
                 <div class="directory-status 1">
                     <h2>The Directory is <span>Not Open</span></h2>
-                    <span class="subtitle-1 block semester-title">Next Semester</span>
-                    <span class="subtitle-2 block semester-dates">Dates coming soon!</span>
+                    <h2 class="subtitle-1 block semester-title">Next Semester</h2>
+                    <h3 class="subtitle-2 block semester-dates">Dates coming soon!</h3>
                 </div>
                 <div class="feature-link controls r">
                     <a class="btn-simple skin-teal pad-xl block" href="https://groups.highlandsapp.com">Learn More</a>
                     <a class="ico-user" href="https://groups.highlandsapp.com/sessions.new">Leader Sign In</a>
                 </div>
+                <a class="group-link" href="#">Register your group</a>
         </div>
           <div class="about">
               <p class="title">Highlands Small Groups</p>
