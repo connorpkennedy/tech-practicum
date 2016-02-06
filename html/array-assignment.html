@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <style>
+        p {
+          font-size:50px;
+        }
+        th {
+          text-align:center;
+          width:249px;
+          border: 1px solid black;
+          padding:10px 5px;
+        }
+        td {
+          width:250px;
+          border: 1px solid black;
+          padding:10px 5px;
+          text-align:center;
+          vertical-align:middle;
+        }
+        </style>
+	</head>
+    <body>
+      <script>
+      $(document).ready(function(){
+        var natsu = {"name":"<img src=../images/array-images/natsu-small.png><br>Natsu Dragneel</br>","magic":"Fire Dragon Slayer Magic <br>Dragon Force</br> <br>Lightning Fire Dragon Slayer Mode</br>",
+        "guild":"<em>Fairy Tail</em>","mangadebut":"Chapter 1","animedebut":"Episode 1"};
+        var laxus = {"name":"<img src=../images/array-images/laxus-small.png><br>Laxus Dreyar</br>","magic":"Lightning Dragon Slayer Magic",
+        "guild":"<em>Fairy Tail</em>","mangadebut":"Chapter 24","animedebut":"Episode 10"};
+        var gajeel = {"name":"<img src=../images/array-images/gajeel-small.jpg><br>Gajeel Redfox</br>","magic":"Iron Dragon Slayer Magic <br>Shadow Iron Dragon Slayer Mode</br>",
+        "guild":"<em>Fairy Tail</em> <br>(formerly of <em>Phantom Lord</em>)</br>","mangadebut":"Chapter 47","animedebut":"Episode 21"};
+        var wendy = {"name":"<img src=../images/array-images/wendy-small.jpg><br>Wendy Marvel</br>","magic":"Sky Dragon Slayer Magic <br>Dragon Force</br>",
+        "guild":"<em>Fairy Tail</em> <br>(formerly of <em>Cait Sith</em>)</br>","mangadebut":"Chapter 132","animedebut":"Episode 49"};
+        var cobra = {"name":"<img src=../images/array-images/cobra-small.jpg><br>Cobra (aka Erik)</br>","magic":"Poison Dragon Slayer Magic",
+        "guild":"<em>Crime Sorciere</em> <br>(formerly of <em>Oracion Seis</em>)</br>","mangadebut":"Chapter 130","animedebut":"Episode 51"};
+        var sting = {"name": "<img src=../images/array-images/sting-small.png><br>Sting Eucliffe</br>","magic":"Light Dragon Slayer Magic <br>Dragon Force</br>",
+        "guild":"<em>Sabertooth</em>","mangadebut":"Chapter 258","animedebut":"Episode 151"};
+        var rogue = {"name":"<img src=../images/array-images/rogue-small.png><br>Rogue Cheney</br>","magic":"Shadow Dragon Slayer Magic <br>Dragon Force</br>",
+        "guild":"<em>Sabertooth</em>","mangadebut":"Chapter 258","animedebut":"Episode 151"};
+        var dragonSlayers = [natsu,laxus,gajeel,wendy,cobra,sting,rogue]
+        $.each(dragonSlayers, function(index,value) {
+          $(".container").append("<tr><td>" + value.name + "</td><td>" + value.magic + "</td><td>" + value.guild +
+           "</td><td>" + value.mangadebut + "</td><td>" + value.animedebut + "</td></tr>")
+        });
+      });
+      </script>
+      <div class="container">
+        <img src="../images/array-images/ft-logo.png">
+        <p>DRAGON SLAYERS</p>
+
+        <table>
+          <th>Name</th>
+          <th>Magic</th>
+          <th>Guild</th>
+          <th>Manga Chapter Debut</th>
+          <th>Anime Episode Debut</th>
+        </table>
+      </div>
+	</body>
+</html>
